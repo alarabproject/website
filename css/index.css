@@ -30,7 +30,7 @@ header ul
 }
 header ul li
 {
-    height: 95px;
+    height: 60px;
     padding: 5px;
     display: flex;
     flex-direction: row;
@@ -47,8 +47,10 @@ header ul li a
     color: white;
     text-decoration: none;
     font-size:x-large;
+    transition: .2s;
 }
 header ul li a:hover
 {
-    background-color: blue;
+    transition: .2s;
+    background-color: royalblue;
 }
