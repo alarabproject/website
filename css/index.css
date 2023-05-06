@@ -1,12 +1,7 @@
-*
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 .main-container
 {
-    background-color: black;
+    background-color: #080808;
+    height: 100vh;
 }
 header
 {
@@ -14,7 +9,7 @@ header
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: #101010;
     height: 95px;
     color: white;
 }
@@ -25,7 +20,8 @@ header ul
     justify-content: space-between;
     flex-wrap: wrap;
     width: 50%;
-    background-color: red;
+    background-color: #181818;
+    border-radius: 0px 5px 5px 0px;
     list-style: none;
 }
 header ul li
@@ -39,18 +35,20 @@ header ul li
 header ul li a
 {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 5px;
+    justify-content: center;
+    padding: 2%;
+    width: 150px;
     height: 100%;
     border-radius: 5px;
     color: white;
     text-decoration: none;
-    font-size:x-large;
-    transition: .2s;
+    font-size: 23px;
+    transition: .3s;
 }
 header ul li a:hover
 {
-    transition: .2s;
-    background-color: royalblue;
+    transition: .3s;
+    background-color: white;
+    color: black;
 }
